@@ -48,7 +48,7 @@ const App = () => {
               return <tr key={index}>
                 <td>{appointment.name}</td>
                 <td>{appointment.time}</td>
-                <td>{appointment.description} </td>
+                <td>{appointment.description}</td>
               </tr>
             })}
         </tbody>
